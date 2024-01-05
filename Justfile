@@ -17,3 +17,6 @@ test:
 check-me:
   @just build
   @./bin/checkbin ./bin/checkbin
+
+update-go:
+  @GOPROXY=proxy.golang.org go list -m github.com/refcell/checkbin@v0.5.0
