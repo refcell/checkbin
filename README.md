@@ -1,5 +1,16 @@
 ## checkbin
 
+[![Run Tests][tests]][tests-link]
+[![Go Reference][ref]][ref-link]
+[![Go Report Card][go-card]][go-card]
+
+[tests]: https://github.com/refcell/checkbin/actions/workflows/ci.yml/badge.svg
+[tests-link]: https://github.com/refcell/checkbin/actions/workflows/cli.yml
+[ref]: https://pkg.go.dev/badge/github.com/refcell/checkbin/v0.svg
+[ref-link]: https://pkg.go.dev/github.com/refcell/checkbin/v0
+[go-card]: https://goreportcard.com/badge/github.com/refcell/checkbin/v1
+
+
 Minimal binary to calculate the checksum for a binary in Golang.
 
 ### Installation
